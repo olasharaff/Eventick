@@ -560,15 +560,17 @@ footer{
     & input{
       border: none;
       border-radius: 45.595px;
+      border: 2px solid black;
+      max-width: 25rem;
     }
    
     & .input {
         position: relative;
-        width: 25rem;
+        /* max-width: 25rem; */
         height: 60.793px;
         border-radius: 45.595px;
         border: 2px solid #F1F1F1;
-        background: #FFF;
+        background: red;
       }
     
       & button {
@@ -775,12 +777,28 @@ footer{
           }
     
           & .footer-box4 {
+            max-width: 30rem;
             text-align: center;
-    
+            
+
             & h1 {
               font-size: var(--fs-ex-lg);
             }
-          }
-        }
+          
 
+          /* & .input {
+            max-width: 22rem;
+            
+          } */
+                    & .placeText {
+                      width: 100%;
+                      padding: 10px;
+                    }
+
+          /* & button {
+            padding: 0.5rem;
+          } */
+          
+        }
+      }
 }
