@@ -694,6 +694,9 @@ footer {
       }
     }
   }
+     .icon-svg {
+       width: 10.2rem;
+     }
 
  /* ---------------- SECTION FOUR ---------------- */
   .figure-box {
@@ -764,15 +767,12 @@ footer {
     /* ---------------- SECTION TWO ---------------- */
      .sec-two {
       
-  
        & form {
   
          & input,
          label {
            margin-inline-start: 0rem;
-         }
-  
-       
+         }      
        }
       }
     
@@ -833,6 +833,9 @@ footer {
     & .fg-box {
       max-width: 19.440rem;
     }
+  }
+  .icon-svg{
+    width: 5rem;
   }
 
   /* FOOTER SECTION */
